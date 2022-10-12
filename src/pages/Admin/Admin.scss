@@ -1,0 +1,49 @@
+@import "../../sass/variables.scss";
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .bottle {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    span {
+      font-family: snake-font;
+      font-size: 25px;
+    }
+  }
+  padding-top: 30px;
+}
+
+.sidebar {
+  width: 240px;
+}
+
+.contents {
+  margin: 0 auto;
+  overflow: auto;
+  h1 {
+    margin-bottom: 30px;
+  }
+}
+
+.page_contents {
+  padding: 20px;
+}
+.balance {
+  font-family: "Futura";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 101.7%;
+  /* or 20px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.07em;
+  text-transform: capitalize;
+
+  color: #ffffff;
+}

@@ -1,0 +1,49 @@
+@import "../../sass/variables.scss";
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .bottle {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    span {
+      font-family: snake-font;
+      font-size: 25px;
+    }
+  }
+  padding-top: 30px;
+}
+
+.sidebar {
+  width: 240px;
+}
+
+.contents {
+  margin: 0 auto;
+  overflow: auto;
+  h1 {
+    margin-bottom: 30px;
+  }
+}
+
+.page_contents {
+  padding: 20px;
+}
+.view_button {
+  
+  width: 144.22px;
+  height: 37px;
+  
+  background: linear-gradient(217.67deg, #D69D5D 21.78%, #F9E29D 88%);
+  font-family: "Futura";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
